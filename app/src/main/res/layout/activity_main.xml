@@ -5,6 +5,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical"
+    android:weightSum="1"
     tools:context="id.sch.smktelkom_mlg.project.xirpl306152433.istiqomahapp.MainActivity">
 
     <TextView
@@ -14,18 +15,25 @@
 
     <Button
         android:id="@+id/btSet"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="Set Alarm" />
-
-    <Button
-        android:id="@+id/btCancel"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="Batalkan Alarm" />
+        android:layout_width="143dp"
+        android:layout_height="86dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="Set Alarm"
+        android:textColor="@android:color/background_light"
+        tools:layout_width="200dp" />
 
     <TextView
         android:id="@+id/promptID"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btCancel"
+        android:layout_width="198dp"
+        android:layout_height="92dp"
+        android:text="Batalkan Alarm"
+        android:textColor="@android:color/background_light"
+        tools:background="@android:color/holo_red_dark"
+        tools:layout_width="200dp" />
+
 </LinearLayout>
