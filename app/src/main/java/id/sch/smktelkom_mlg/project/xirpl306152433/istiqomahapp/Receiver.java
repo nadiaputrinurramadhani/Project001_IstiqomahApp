@@ -15,7 +15,7 @@ public class Receiver extends BroadcastReceiver {
 
     @Override
     public void onReceive(Context c, Intent arg1) {
-        mp = MediaPlayer.create(c, R.raw.song);
+        mp = MediaPlayer.create(c, R.raw.mecca_56_22);
         mp.start();
         Toast.makeText(c, "Alarm Telah Menyala", Toast.LENGTH_SHORT).show();
     }
