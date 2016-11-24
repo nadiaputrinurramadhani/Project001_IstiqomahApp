@@ -4,8 +4,10 @@
     android:id="@+id/activity_main"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:background="@android:color/holo_green_light"
     android:orientation="vertical"
     android:weightSum="1"
+    tools:background="@android:color/holo_green_light"
     tools:context="id.sch.smktelkom_mlg.project.xirpl306152433.istiqomahapp.MainActivity">
 
     <TextView
@@ -29,8 +31,9 @@
 
     <Button
         android:id="@+id/btCancel"
-        android:layout_width="198dp"
-        android:layout_height="92dp"
+        android:layout_width="143dp"
+        android:layout_height="86dp"
+        android:background="@android:color/holo_red_dark"
         android:text="Batalkan Alarm"
         android:textColor="@android:color/background_light"
         tools:background="@android:color/holo_red_dark"
